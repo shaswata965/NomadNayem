@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+p{
+  padding-left: 3rem;
+}
+/* title Section */
+.title{
+  background-image: url(../image/Index-back.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+overflow: hidden;
+  background-size: cover;
+  color: inherit;
+}
+
+.title-h1{
+  padding: 5rem 0 3rem 2rem;
+  color: #fff;
+}
+.title-p{
+  padding:0 0 5rem 2rem;
+  color: #fff;
+}
+
+.title-video{
+  padding: 5rem 0 5rem 0;
+
+  height: 30rem;
+  width:35rem;
+  border: 0;
+}
+
+/* Navigation Section */
+#navbar-top:hover{
+  opacity: 0.9;
+}
+.icon{
+  padding-top: .6rem;
+ color: #fff;
+}
+
+.nav-item{
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  font-weight: 600;
+}
+
+/* Content Section */
+
+.videos{
+  padding-bottom: 5rem;
+}
+
+.content-h2{
+  padding: 3rem 0 2rem 3rem;
+}
+
+.content-video{
+  border:0;
+  padding: 2rem 0 0 3rem;
+}
+
+/* Footer Section */
+.footer{
+  background-color: #2b2e4a;
+  color: #fff;
+  overflow: hidden;
+}
+.footer-p{
+  text-align: center;
+}

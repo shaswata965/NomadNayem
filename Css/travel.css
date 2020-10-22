@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+.title{
+  background-image: url(../image/Index-back.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+  text-align: center;
+  background-size: cover;
+  color: white;
+}
+
+/* Navigation Section */
+#navbar-top:hover{
+  opacity: 0.9;
+}
+.icon{
+  padding-top: .6rem;
+ color: #fff;
+}
+
+.nav-item{
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  font-weight: 600;
+}
+/* Title Page Section */
+.title-h2{
+  color: #fff;
+  text-align: center;
+margin:0 0 2rem 0;
+padding: 10rem 0 0 0;
+}
+.title-h3{
+padding: 2rem 0 14rem 0;
+
+}
+
+/* Cards Section */
+.products{
+  padding: 5rem 0 5rem 0;
+
+}
+/* Testimonial Section */
+.carousel-item{
+    padding: 7% 15%;
+}
+.carasaoul{
+  background-color: #ffe2e2;
+  text-align: center;
+  color: #2b2e4a;
+}
+.testimonial-image{
+  width:20%;
+  border-radius:100%;
+}
+/* Footer Section */
+.footer{
+  background-color: #2b2e4a;
+  color: #fff;
+  overflow: hidden;
+}
+.footer-p{
+  text-align: center;
+}

@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+/* Title Section */
+.title{
+  background-image: url(../image/Index-back.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+  text-align: center;
+  background-size: cover;
+  color: white;
+}
+.title-h1{
+  margin:0;
+  padding: 15rem 0 2rem 0;
+}
+.title-h2{
+  margin: 0;
+  padding: 0 0 15rem 0;
+}
+
+/* Navigation Section */
+#navbar-top:hover{
+  opacity: 0.9;
+}
+.icon{
+  padding-top: .6rem;
+ color: #fff;
+}
+
+.nav-item{
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  font-weight: 600;
+}
+/* Blog Section */
+
+.blogs-h1{
+  text-align: center;
+  padding:5rem 10rem 2rem 10rem;
+}
+
+.blog-p{
+  text-align: center;
+  padding: 5rem 5rem 5rem 5rem ;
+}
+
+/* Send-Adventure Section */
+.Send-Adventures{
+  text-align: center;
+  padding: 5rem 7rem 3rem 7rem;
+}
+.send-h2{
+  padding-bottom: 2rem;
+}
+
+/* footer section */
+.footer{
+  background-color: #2b2e4a;
+  color: #fff;
+  overflow: hidden;
+}
+.footer-p{
+  text-align: center;
+}
