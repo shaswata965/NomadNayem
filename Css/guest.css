@@ -1,8 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+
 /* Title Section */
-.title{
+.title {
   background-image: url(../image/Index-back.jpg);
   background-repeat: no-repeat;
   margin: 0;
@@ -10,120 +11,139 @@ html {
   background-size: cover;
   color: white;
 }
-.title-h1{
-  margin:0;
+
+.title-h1 {
+  margin: 0;
   padding: 15rem 0 2rem 0;
 }
-.title-h2{
+
+.title-h2 {
   margin: 0;
   padding: 0 0 15rem 0;
 }
 
 /* Navigation Section */
-#navbar-top:hover{
+#navbar-top:hover {
   opacity: 0.9;
 }
-.icon{
+
+.icon {
   padding-top: .6rem;
- color: #fff;
+  color: #fff;
 }
 
-.nav-item{
+.nav-item {
   padding: 0.5rem 0.5rem 0 0.5rem;
   font-weight: 600;
 }
-.cards-h1
-{
-	color:#fff;
-	margin:40px 0 60px 0;
-	font-weight:300;
+
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-.our-team-main
-{
-	width:100%;
-	height:auto;
-	border-bottom:5px #323233 solid;
-	background:#fff;
-	text-align:center;
-	border-radius:10px;
-	overflow:hidden;
-	position:relative;
-	transition:0.5s;
-	margin-bottom:28px;
+.dropdown-content {
+  display: none;
+  border-radius: 10%;
+  position: absolute;
+  background-color: #646464;
+  min-width: 10rem;;
+  padding: .5rem .5rem;
+  z-index: 1;
 }
 
-
-.cards-pic
-{
-	border-radius:50%;
-  margin-bottom:20px;
-	width: 90px;
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
-.cards-h3
-{
-	font-size:20px;
-	font-weight:700;
+.drop-a{
+  color:#fff;
 }
 
-.cards-p
-{
-	margin-bottom:0;
+/* Cards Section */
+.cards-h1 {
+  color: #fff;
+  margin: 40px 0 60px 0;
+  font-weight: 300;
 }
 
-.team-back
-{
-	width:100%;
-	height:auto;
-	position:absolute;
-	top:0;
-	left:0;
-	padding:5px 15px 0 15px;
-	text-align:left;
-	background:#fff;
-
+.our-team-main {
+  width: 100%;
+  height: auto;
+  border-bottom: 5px #323233 solid;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+  margin-bottom: 28px;
 }
 
-.team-front
-{
-	width:100%;
-	height:auto;
-	position:relative;
-	z-index:10;
-	background:#fff;
-	padding:15px;
-	bottom:0;
-	transition: all 0.5s ease;
+.cards-pic {
+  border-radius: 50%;
+  margin-bottom: 20px;
+  width: 90px;
 }
 
-.our-team-main:hover .team-front
-{
-	bottom:-200px;
-	transition: all 0.5s ease;
+.cards-h3 {
+  font-size: 20px;
+  font-weight: 700;
 }
 
-.our-team-main:hover
-{
-	border-color:#777;
-	transition:0.5s;
+.cards-p {
+  margin-bottom: 0;
+}
+
+.team-back {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px 15px 0 15px;
+  text-align: left;
+  background: #fff;
+}
+
+.team-front {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  padding: 15px;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+
+.our-team-main:hover .team-front {
+  bottom: -200px;
+  transition: all 0.5s ease;
+}
+
+.our-team-main:hover {
+  border-color: #777;
+  transition: 0.5s;
 }
 
 /* Send-Adventure Section */
-.Send-Adventures{
+.Send-Adventures {
   text-align: center;
   padding: 5rem 7rem 3rem 7rem;
 }
-.send-h2{
+
+.send-h2 {
   padding-bottom: 2rem;
 }
 
 /* footer section */
-.footer{
+.footer {
   background-color: #2b2e4a;
   color: #fff;
   overflow: hidden;
 }
-.footer-p{
+
+.footer-p {
   text-align: center;
 }
