@@ -2,12 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 .cover{
-  background-image: url(../image/Index-back.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../image/Index-back.jpg);
   background-repeat: no-repeat;
   margin: 0;
   text-align: center;
   background-size: cover;
   color: white;
+  padding: 4rem 0 10rem 0;
 }
 /* Navigation Section */
 #navbar-top:hover{
@@ -24,19 +25,40 @@ html {
 }
 /* Title Page Section */
 .title-pic{
+  margin: 0 0 2rem 0;
   height:10rem;
   width:10rem;
   border-radius: 100%;
 }
 .title-h2{
-  color: #fff;
+  color: #ebebeb;
+  font-family: "Courgette",cursive;
   text-align: center;
-margin:0 0 2rem 0;
-padding: 5rem 0 0 0;
+}
+.quote-h3{
+  padding-top: 2rem;
+  color: #ebebeb;
+  font-family: "Courgette",cursive;
+  text-align: center;
+}
+.mohajon-h3{
+  color: #ebebeb;
+  font-family: "Courgette",cursive;
+  text-align: center;
+  padding-left: 50rem;
+}
+.Name-h2{
+  color: #fff;
+  font-family: "Helvetica";
+  font-weight: 400;
+  text-align: center;
+  padding-top: 2rem;
+
 }
 .title-h3{
-padding: 2rem 0 0 0;
-padding-bottom: 7rem;
+    color: #fff;
+font-family: "Courgette",cursive;
+padding-top: 2rem;
 }
 /* Profile Page Section */
 .profile{
