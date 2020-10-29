@@ -67,7 +67,6 @@ html {
   color: #ebebeb;
   font-family: "Courgette",cursive;
   text-align: center;
-  padding-left: 50rem;
 }
 .Name-h2{
   color: #fff;
@@ -89,19 +88,16 @@ padding-top: 2rem;
   padding: 7rem 0 7rem 0;
 }
 .profile-pic{
-  height:15rem;
-  width:15rem;
-  margin-left: 7rem;
+  height:10rem;
+  width:10rem;
   border-radius: 100%;
-  position: absolute;
+  position: static;
+  margin: 1rem 13rem;
 }
 .profile-h3{
-  margin-left: 12rem;
   font-size: 1.3rem;
   text-align: center;
   font-family: "Raleway",sans-serif;
-  padding: 0 12rem 1rem 12rem;
-
 }
 
 /* Cards Section */
@@ -193,10 +189,10 @@ margin-bottom: 3rem;
   text-align: center;
 }
 .cta-h2{
-  font-size: 4rem;
+  font-size: 2rem;
   font-family:"Raleway",sans-serif;
   font-weight: 500;
-  padding: 2rem 12rem 2rem 12rem;
+  padding: 2rem 0 2rem 0;
 }
 
 /* Footer Section */
@@ -207,4 +203,43 @@ margin-bottom: 3rem;
 }
 .footer-p{
   text-align: center;
+}
+
+/* Media Viewport */
+@media (min-width:900px) {
+  .mohajon-h3{
+    color: #ebebeb;
+    font-family: "Courgette",cursive;
+    text-align: center;
+    padding-left: 50rem;
+  }
+
+}
+/* Media Viewport */
+@media (min-width:610px) {
+  .profile-h3{
+    margin-left: 12rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Raleway",sans-serif;
+    padding: 0 12rem 1rem 12rem;
+  }
+  .profile-pic{
+    height:15rem;
+    width:15rem;
+    margin-left: 7rem;
+    border-radius: 100%;
+    position: absolute;
+  }
+
+
+}
+@media (min-width:900px) {
+  .cta-h2{
+    font-size: 4rem;
+    font-family:"Raleway",sans-serif;
+    font-weight: 500;
+    padding: 2rem 12rem 2rem 12rem;
+  }
+
 }
