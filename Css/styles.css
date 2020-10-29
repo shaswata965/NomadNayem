@@ -92,7 +92,8 @@ padding-top: 2rem;
   width:10rem;
   border-radius: 100%;
   position: static;
-  margin: 1rem 13rem;
+  margin: 0 auto 1rem auto;
+  display:block;
 }
 .profile-h3{
   font-size: 1.3rem;
@@ -206,7 +207,7 @@ margin-bottom: 3rem;
 }
 
 /* Media Viewport */
-@media (min-width:900px) {
+@media (min-width:910px) {
   .mohajon-h3{
     color: #ebebeb;
     font-family: "Courgette",cursive;
@@ -214,9 +215,10 @@ margin-bottom: 3rem;
     padding-left: 50rem;
   }
 
+
 }
 /* Media Viewport */
-@media (min-width:610px) {
+@media (min-width:929px) {
   .profile-h3{
     margin-left: 12rem;
     font-size: 1.3rem;
@@ -231,6 +233,7 @@ margin-bottom: 3rem;
     border-radius: 100%;
     position: absolute;
   }
+
 
 
 }
