@@ -3,12 +3,12 @@ html {
 }
 /* Title Section */
 .title{
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../image/blog1ent.jpg);
-  background-repeat: no-repeat;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../image/saingpra.jpg);
   margin: 0;
   text-align: center;
   background-size: cover;
   color: white;
+    padding: 4rem 0 7rem 0;
 }
 .title-h1{
   margin:0;
@@ -91,3 +91,15 @@ html {
 .footer-p{
   text-align: center;
 }
+
+/*media*/
+@media  (max-width:771px) {
+  .blog-p{
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: .5rem;
+    font-size: 1rem;
+    font-family: "Mina",sans-serif;
+    font-weight: 300;
+  }
+  }

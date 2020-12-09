@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 .cover{
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../image/Index-back.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url(../image/saingpra.jpg);
   background-repeat: no-repeat;
   margin: 0;
   text-align: center;
@@ -127,9 +127,10 @@ padding: 5rem 0 2rem 0;
 
 .cards-pic
 {
-	border-radius:50%;
+  border-radius:100%;
   margin-bottom: .3rem;
-	width: 5rem;
+  height: 7rem;
+	width: 7rem;
 }
 
 .cards-h3
