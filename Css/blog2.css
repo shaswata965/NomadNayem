@@ -186,3 +186,24 @@ display: block;
     }
 
     }
+@media  (max-width:485px){
+  .blog-pic1{
+  height:100%;
+  width:100%;
+  margin: 0.3rem;
+  display: block;
+  }
+  .blog-pic2{
+  height:100%;
+  width:100%;
+  margin:  0.3rem;
+  display: block;
+  }
+  .blog-pic3{
+    height:100%;
+    width:100%;
+    margin:  0.3rem;
+    display: block;
+  }
+
+}
